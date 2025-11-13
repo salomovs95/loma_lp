@@ -1,11 +1,13 @@
 {
-    "name": "Loma - Mailing Redirects", 
+    "name": "Loma - Mailing Redirects",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@tailwindcss/vite": "^4.1.17",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "react-hook-form": "^7.55.0"
+        "react-hook-form": "^7.55.0",
+        "tailwindcss": "^4.1.17"
     },
     "devDependencies": {
         "@types/node": "^20.10.0",
