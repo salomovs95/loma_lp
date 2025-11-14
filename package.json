@@ -1,21 +1,21 @@
 {
-    "name": "Loma - Mailing Redirects",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@tailwindcss/vite": "^4.1.17",
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1",
-        "react-hook-form": "^7.55.0",
-        "tailwindcss": "^4.1.17"
-    },
-    "devDependencies": {
-        "@types/node": "^20.10.0",
-        "@vitejs/plugin-react-swc": "^3.10.2",
-        "vite": "6.3.5"
-    },
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build"
-    }
+  "name": "Loma - Mailing Redirects",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.55.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/node": "^20.10.0",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "tailwindcss": "^4.1.17",
+    "vite": "6.3.5"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
 }
