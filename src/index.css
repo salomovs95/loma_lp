@@ -2,7 +2,22 @@
 @import "tailwindcss";
 
 @theme {
+  /* TYPOGRAPHY */
   --font-sans: "Inter", sans-serif;
+
+  /* COLOR SCHEME */
+  --color-white: #F0F2F5;
+  --color-blue-800: #03000D;
+  --color-blue-500: #3F3D56;
+  --color-blue-400: #0072C6;
+  --color-blue-300: #6C63FF;
+  --color-blue-200: #77ACF1;
+  --color-green-400: #25D366;
+  --color-red-200: #B2392F20;
+  --color-gray-200: #B7B6AD;
+
+  /*--color-blue-linear: from #37BBFE to #007DBB;*/
+  /*--color-gray-linear: from #F8F6EF to #E7E4D6;*/
 }
 
 @layer base {
