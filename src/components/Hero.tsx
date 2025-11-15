@@ -1,7 +1,7 @@
 export function Hero() {
   return (
-    <section className="flex w-full items-center gap-[40px_100px] text-5xl text-[#03000d] font-bold leading-[72px] justify-between flex-wrap mt-[72px] px-[100px] max-md:max-w-full max-md:text-[40px] max-md:leading-[67px] max-md:mt-10 max-md:px-5">
-      <div className="text-blue-500 self-stretch my-auto max-md:max-w-full max-md:text-[40px] max-md:leading-[67px]">
+    <section className="flex max-lg:gap-12 max-lg:flex-col  w-full items-center max-lg:justify-center justify-between text-5xl font-bold leading-[72px] mt-[72px] max-lg:px-8 px-[100px] max-md:max-w-full max-md:text-[40px] max-md:leading-[67px] max-md:mt-10">
+      <div className="max-lg:text-center text-blue-500 self-stretch my-auto max-md:max-w-full max-md:text-[40px] max-md:leading-[67px]">
         <span>Já</span>{" "}
         <span class="text-blue-200">
           perdeu uma oportunidade

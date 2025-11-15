@@ -11,7 +11,9 @@ export function App() {
       <Header />
       <main>
         <Hero />
-        <div className="flex min-h-[68px] w-full mt-[72px] py-4 max-md:max-w-full max-md:mt-10" />
+        <div className="flex justify-center min-h-[68px] w-full mt-[72px] py-4 max-md:max-w-full max-md:mt-10">
+          <img src="src/assets/MessageSvg.svg" class="h-6 w-auto" alt="Message icon" />
+        </div>
         <About />
         <Features />
         <FeedbackForm />

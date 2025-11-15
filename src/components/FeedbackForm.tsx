@@ -19,7 +19,7 @@ export function FeedbackForm() {
   };
 
   return (
-    <section className="flex w-full items-center gap-[40px_100px] overflow-hidden text-center justify-between flex-wrap mt-[72px] px-[100px] max-md:max-w-full max-md:mt-10 max-md:px-5">
+    <section className="flex w-full items-center max-md:flex-col gap-[40px_100px] max-md:gap-[96px] overflow-hidden text-center justify-between flex-wrap mt-[72px] max-lg:px-8 px-[100px] max-md:max-w-full max-md:mt-10">
       <div className="self-stretch flex min-w-60 flex-col items-center text-[#3f3d56] justify-center w-[512px] my-auto max-md:max-w-full">
         <div className="text-5xl text-blue-500 font-semibold leading-[48px] max-md:max-w-full max-md:text-[40px] max-md:leading-[45px]">
           <span class="font-bold" style={{lineHeight: '58px'}}>
@@ -33,8 +33,8 @@ export function FeedbackForm() {
           </span>
         </div>
         <div className="text-[28px] font-bold leading-[34px] mt-4 max-md:max-w-full">
-          Nos envie sugestões de melhorias no formulário ao lado ou clique{" "}
-          <span className="underline text-blue-200 hover:text-[#5a9ae8] transition-colors">
+          Nos envie sugestões de melhorias no formulário a seguir ou clique{" "}
+          <span className="underline text-blue-200 hover:opacity-3/4 transition-colors">
             aqui
           </span>
           .
