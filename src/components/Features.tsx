@@ -21,7 +21,7 @@ export function Features() {
               className="aspect-[1] object-contain w-9 self-stretch shrink-0 my-auto"
               alt="Feature icon"
             />
-            <div className="text-[#3F3D56] self-stretch my-auto max-md:max-w-full">
+            <div className="text-blue-500 self-stretch my-auto max-md:max-w-full">
               {feature}
             </div>
           </div>

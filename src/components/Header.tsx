@@ -8,15 +8,15 @@ export function Header() {
           className="min-h-11 w-[164px]"
           alt="LOMA Logo"
         />
-        <span className="text-[#03000D] text-[1.75rem] font-medium self-stretch my-auto">
+        <span className="text-[1.75rem] font-medium self-stretch my-auto">
           -
         </span>
-        <span className="text-[#03000D] text-[1.75rem] font-medium self-stretch my-auto">
+        <span className="text-[1.75rem] font-medium self-stretch my-auto">
           Redirecionando seus emails
         </span>
       </div>
-      <div className="self-stretch flex items-center text-[1.75rem] text-[#3F3D56] font-semibold justify-center my-auto p-0.5">
-        <span className="text-[#3F3D56] self-stretch my-auto">
+      <div className="self-stretch flex items-center text-[1.75rem] text-blue-500 font-semibold justify-center my-auto p-0.5">
+        <span className="self-stretch my-auto">
           Em breve..
         </span>
       </div>
